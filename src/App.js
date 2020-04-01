@@ -1,26 +1,34 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useReducer, useEffect, Component } from "react";
+import { Route } from "react-router-dom";
+import "./App.css";
+import Header from "./Header";
 
-function App() {
+import Footer from "./Footer";
+import MovieDetails from "./MovieDetails";
+
+
+class App extends Component{
+  constructor(props) {
+    super(props)
+
+    
+  }
+
+render(){
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Route>
+    <div>
+      <Header text="MovieMania"/>
+       
     </div>
-  );
+   
+    <main>
+    
+    <Route exact path="/" component={MovieDetails} />
+    <Footer/>
+      </main>
+    </Route>
+  )
 }
-
+}
 export default App;
