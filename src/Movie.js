@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import Popup from "./Popup"
 
 // this block of code will render a default image when the imge that is returned from the API is broken 
 // its refferenced from freecodecamp.org
@@ -21,7 +21,8 @@ const Movie = ({ movie }) => {
           src={poster}
         /></Link>
       </div>
-      <p>({movie.Year})</p>
+      <p>({movie.Year}) </p>
+      <Popup />
     </div>
   );
 };

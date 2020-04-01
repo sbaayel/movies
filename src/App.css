@@ -13,6 +13,14 @@
   color: aquamarine;
   padding: 20px;
   cursor: pointer;
+  
+}
+
+.App-header a{
+  text-decoration: none;
+  color: yellowgreen;
+  font-style: oblique;
+  font-size: calc(10px + 4vmin);
 }
 
 .spinner {
