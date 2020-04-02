@@ -15,7 +15,7 @@ render(){
   return (
     <Route>
     <div>
-      <Header text="MovieMania"/>
+      <Header text="MovieManiak"/>
        
     </div>
    
