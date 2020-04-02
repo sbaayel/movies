@@ -91,6 +91,7 @@ const MovieDetails = () => {
         <section>
 
           <Search search={search} />
+          
       <p className="App-intro">Sharing a few of our favourite movies</p>
        
         </section>
@@ -107,7 +108,7 @@ const MovieDetails = () => {
               )}
           
 
-          <Route render={routerProps => <Movie movie={this.state.movie} {...routerProps} />} path="/movies/:type" />
+          <Route render={routerProps => <Movie movie={this.state.movie} {...routerProps} />} path="/movies/:poster" />
           
         </main>
         <footer><Footer text="&copy; copyright"/></footer>

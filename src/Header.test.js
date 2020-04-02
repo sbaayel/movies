@@ -1,25 +1,26 @@
 import React from 'react'
 import { shallow, mount} from 'enzyme'
 
-import Search from './Search'
+import Header from './Header'
+import { Link } from 'react-router-dom';
 
 
 
 
-describe("Search", () => {
+describe("Header", () => {
   it("returns", () => {
-    shallow(<Search />);
+    shallow(<Header />);
   });
 
-  it("found searchValue", () => {
-    const component = shallow(<Search/>);
-    expect(component.contains("searchValue")).toBe(true);
+  it("displays header", () => {
+    const component = shallow(<Header/>);
+    expect(component.contains(<h2></h2>)).toBe(true);
   });
 
 
-  it("found onChange", () => {
-    const comp = shallow(<Search />);
-    expect(comp.contains("onChange")).toBe(true);
+  it("displays found export default Header", () => {
+    const comp = shallow(<Header />);
+    expect(comp.contains("export default Header;")).toBe(true);
   });
 
 
