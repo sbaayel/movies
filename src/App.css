@@ -46,7 +46,7 @@
 
 img{
   display:flex;
-  z-index: -1;
+  
   
   content: "";
   bottom: 25px;

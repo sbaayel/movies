@@ -19,7 +19,7 @@ class Popup extends Component {
     
   render() {
     return (
-      <main>
+      <main className="main">
         
         <Modal show={this.state.show} handleClose={this.hideModal} >
           <p>Sorry the movies you want to download is not available right now !!</p>
