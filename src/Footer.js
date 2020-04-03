@@ -4,6 +4,7 @@ const Footer = (props) => {
   return (
     <div className="footer">
       <h2>{props.text}</h2>
+      <p>powerd by omdb api</p>
     </div>
   );
 };

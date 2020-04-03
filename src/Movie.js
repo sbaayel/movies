@@ -5,7 +5,7 @@ import Popup from "./Popup"
 // this block of code will render a default image when the imge that is returned from the API is broken 
 // its refferenced from freecodecamp.org
 const default_image =
-  "https://m.media-amazon.com/images/M/MV5BMTczNTI2ODUwOF5BMl5BanBnXkFtZTcwMTU0NTIzMw@@._V1_SX300.jpg";
+  "https://m.media-amazon.com/images/M/MV5BMzY2ODk4NmUtOTVmNi00ZTdkLTlmOWYtMmE2OWVhNTU2OTVkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg";
 
 
 const Movie = ({ movie }) => {
