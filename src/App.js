@@ -4,7 +4,7 @@ import "./App.css";
 import Header from "./Header";
 
 import Footer from "./Footer";
-import MovieDetails from "./MovieDetails";
+import Main from "./Main";
 
 
 
@@ -14,17 +14,11 @@ class App extends Component{
 render(){
   return (
     <Route>
-    <div>
-      <Header text="MovieManiak"/>
-       
-    </div>
-   
-    <main>
-        
-        <Route exact path="/" component={MovieDetails} />
-       
-    <Footer/>
-      </main>
+      <div className="app">
+        <Header text="MovieManiak"/>
+        <Main/>
+        <Footer text="&copy; 2020. Sebastian Baayel"/>
+      </div>
     </Route>
   )
 }

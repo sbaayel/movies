@@ -2,9 +2,9 @@ import React from "react";
 
 const Footer = (props) => {
   return (
-    <footer className="App-header">
+    <div className="footer">
       <h2>{props.text}</h2>
-    </footer>
+    </div>
   );
 };
 

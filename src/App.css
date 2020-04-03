@@ -1,3 +1,83 @@
+html{
+  min-height: 100%;
+  min-height: 100vh;
+}
+
+body {
+  min-height: 100%;
+  min-height: 100vh;
+}
+
+body {
+  font: 16px 'Roboto', Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  background: #f6f6f6;
+}
+
+.app {
+  max-width: 100rem;
+  width: 100%;
+  background: lightgray;
+  padding: 1rem;
+  font-size: .9rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  min-height: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
+}
+
+
+  header {
+    position: relative;
+    top: 0;
+    overflow: hidden;
+    display: block;
+    color: white;
+    background: gray;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 1rem;
+    margin: .5rem 1rem;
+    text-align: center;
+    transition: 200ms;
+  }
+
+
+  
+  
+
+
+.main {
+  flex: 1 1 auto;
+  color: #000033;
+  background:white;
+  width: 100%;
+    padding: 1rem;
+    margin: .5rem 1rem;
+    text-align: center;
+    transition: 200ms;
+}
+
+.footer {
+  width: 100%;
+  padding: 1rem;
+  margin: .5rem 1rem;
+  text-align: center;
+  transition: 200ms;
+  background-color: #000033;
+  color: white;
+}
+  .footer, .header, .main:hover {
+    box-shadow: 0 0 2rem aqua;
+  }
+
+
 .App {
   text-align: center;
 }
@@ -13,24 +93,23 @@
   color: aquamarine;
   padding: 20px;
   cursor: pointer;
+  width: 100%;
+    padding: 1rem;
+    margin: .5rem 1rem;
+    text-align: center;
+    transition: 200ms;
   
 }
 
-.App-header h2{
+.App-header a{
   text-decoration: none;
   color: yellowgreen;
   font-style: oblique;
   font-size: calc(10px + 4vmin);
 }
 
-.spinner {
-  height: 80px;
-  margin: auto;
-}
 
-.App-intro {
-  font-size: large;
-}
+
 
 /* new css for movie component */
 

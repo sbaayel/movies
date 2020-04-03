@@ -92,7 +92,7 @@ const MovieDetails = () => {
 
           <Search search={search} />
           
-      <p className="App-intro">Sharing a few of our favourite movies</p>
+      <p className="App-intro">Search for your favourite movies</p>
        
         </section>
       
@@ -100,7 +100,10 @@ const MovieDetails = () => {
         {loading && !errorMessage ? (
           <span>loading... </span>
         ) : errorMessage ? (
-          <div className="errorMessage">{errorMessage}</div>
+              <div className="errorMessage">
+                {errorMessage}
+              <p>type in a key word eg. for Simbad type sim</p>
+              </div>
         ) : (
           movies.map((movie, index) => (
             <Movie key={`${index}-${movie.Title}`} movie={movie} />
@@ -111,7 +114,7 @@ const MovieDetails = () => {
           <Route render={routerProps => <Movie movie={this.state.movie} {...routerProps} />} path="/movies/:poster" />
           
         </main>
-        <footer><Footer text="&copy; copyright"/></footer>
+       
     </div>
   );
 };
