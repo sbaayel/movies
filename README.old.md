@@ -1,5 +1,5 @@
 # movies
-movie api project 
+movie api project (MOVIEMANIAK)
 
 Project Description:
 This project is going to produce web-application that displays upon a search from a user all movies based on the searched keyword.
@@ -16,6 +16,8 @@ Wireframe: Adobe XD
 
 Deliverables
 Fully functional main page that displays movies searched by user
+Functional search input field 
+Functional click to popout button 
 Fully functional movie details page thats has information of the movie the user clicks to view
 
 External resources 
