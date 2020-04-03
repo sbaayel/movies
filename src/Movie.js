@@ -15,7 +15,7 @@ const Movie = ({ movie }) => {
     <div className="movie">
       <h2>{movie.Title}</h2>
       <div>
-       <Link to={`/movies/${movie.type}`}><img
+       <Link to={`/movies/${movie.poster}`}><img
           width="200"
           alt={`The movie titled: ${movie.Title}`}
           src={poster}

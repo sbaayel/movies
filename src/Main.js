@@ -1,13 +1,14 @@
 import React from "react";
 import { Route } from "react-router-dom";
 import MovieDetails from "./MovieDetails"
+import MovieInfo from "./MovieInfo";
 
 const Main = (props) => {
   return (
     <div className="main">
       <Route exact path="/" component={MovieDetails} />
 
-      <h3>Sorry movie not available....!!!</h3>
+      <Route path="/movies/poster" component={MovieInfo} />
     </div>
 
 
