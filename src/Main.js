@@ -6,6 +6,8 @@ const Main = (props) => {
   return (
     <div className="main">
       <Route exact path="/" component={MovieDetails} />
+
+      <h3>Sorry movie not available....!!!</h3>
     </div>
 
 

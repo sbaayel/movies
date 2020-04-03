@@ -13,10 +13,12 @@ class App extends Component{
 
 render(){
   return (
+    
     <Route>
+      
       <div className="app">
         <Header text="MovieManiak"/>
-        <Main/>
+        <Main />
         <Footer text="&copy; 2020. Sebastian Baayel"/>
       </div>
     </Route>
