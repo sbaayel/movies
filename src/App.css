@@ -1,3 +1,11 @@
+ /* 
+My styling is based on personal knowledge of css and refferenced code examples from
+w3schools.com
+codepen.io
+css-tricks.com
+*/
+
+
 html{
   min-height: 100%;
   min-height: 100vh;
@@ -243,3 +251,5 @@ input[type="submit"]:hover {
     margin: auto;
   }
 }
+
+
